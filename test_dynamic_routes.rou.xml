@@ -1,0 +1,16 @@
+<routes>
+    <!-- 原始乘客车辆类型 -->
+    <vType id="HDV" vClass="passenger" color="yellow" minGap="2.5" 
+           accel="2.6" decel="4.5" maxSpeed="33.33" lcStrategic="1" 
+           lcCooperative="1" lcSpeedGain="1" lcAssertive="0.75" tau="1.2" 
+           speedFactor="norm(1,0.05)"/>
+
+    <!-- 新增CAV车辆类型 -->
+    <vType id="CAV" vClass="passenger" color="blue" minGap="7.28894536"
+           accel="1.80358659" decel="0.2542003" maxSpeed="41.31530379"
+           tau="1.58680118" carFollowModel="IDM" laneChangeModel="LC2013"
+           lcStrategic="1" lcCooperative="0.07141924624924251" 
+           lcSpeedGain="1" lcAssertive="0.75" 
+           lcAccelThreshold="1.797085455661397"
+           speedFactor="norm(1,0.05)"/>
+</routes>
